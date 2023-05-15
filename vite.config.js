@@ -11,5 +11,9 @@ export default defineConfig({
       // the proper extensions will be added
       fileName: "test-component",
     },
-  }
+  },
+  // the following breaks the build process
+  // define: {
+  //   "process.env": process.env
+  // }
 })
